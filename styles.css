@@ -73,6 +73,9 @@
 .about-content,
 .works-list,
 .contacto {
+html {
+	scroll-behavior: smooth;
+}
 	box-shadow: 0 8px 48px 0 rgba(45,254,84,0.22);
 	border-radius: 1rem;
 	padding: 8px 12px;
