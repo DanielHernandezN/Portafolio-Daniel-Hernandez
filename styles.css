@@ -203,7 +203,7 @@ body {
 	transition: background 0.2s, color 0.2s;
 }
 .btn-primary:hover {
-	background: #fff;
+	background: #20241e;
 	color: var(--verde-acento);
 }
 .social-links {
