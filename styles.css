@@ -389,8 +389,8 @@ body {
 	transition: background 0.2s, color 0.2s;
 }
 .contacto button:hover {
-	background: #fff;
-	color: var(--verde-acento);
+		background: #20241e;
+		color: var(--verde-acento);
 }
 
 .footer {
