@@ -68,6 +68,17 @@
 	--verde-acento: #2DFE54;
 }
 
+/* Estilos para divs con sombra */
+.hero-content,
+.about-content,
+.works-list,
+.contacto {
+	box-shadow: 0 8px 48px 0 rgba(45,254,84,0.22);
+	border-radius: 1rem;
+	padding: 8px 12px;
+	/* Mantiene el color de fondo actual */
+}
+/* Opcional: Si quieres que solo ciertos divs tengan sombra, puedes usar clases específicas en vez de afectar todos los divs. */
 body {
 	margin: 0;
 	font-family: 'Segoe UI', Arial, sans-serif;
@@ -82,9 +93,13 @@ body {
 	text-align: center;
 }
 .header h1 {
-	margin: 0;
-	font-size: 2.2rem;
-	font-weight: 600;
+		margin: 0;
+		font-size: 3.2rem;
+		font-weight: 800;
+		letter-spacing: 2px;
+		color: var(--gris-claro);
+		text-shadow: 0 2px 16px rgba(45,254,84,0.15), 0 1px 0 #23243a;
+		line-height: 1.1;
 }
 
 .typing-effect {
@@ -217,8 +232,20 @@ body {
 	height: 260px;
 	object-fit: cover;
 	border-radius: 50%;
-	border: 6px solid var(--gris-medio);
-	box-shadow: 0 2px 16px rgba(0,0,0,0.15);
+	border: 6px solid var(--verde-acento);
+	box-shadow: 0 0 32px 8px rgba(45,254,84,0.18), 0 0 0 8px #23243a, 0 2px 16px rgba(0,0,0,0.15);
+	animation: border-glow 2.5s infinite alternate;
+}
+
+@keyframes border-glow {
+	0% {
+		box-shadow: 0 0 32px 8px rgba(45,254,84,0.18), 0 0 0 8px #23243a;
+		border-color: var(--verde-acento);
+	}
+	100% {
+		box-shadow: 0 0 48px 16px rgba(45,254,84,0.32), 0 0 0 8px #23243a;
+		border-color: #7ecaf7;
+	}
 }
 
 .about-me.section {
