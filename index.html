@@ -97,12 +97,16 @@
         </section>
         <section id="contacto" class="section contacto">
                         <h2>Contacto</h2>
-                        <form action="https://formspree.io/f/mkgvkzpl" method="POST" target="_blank">
-                            <label for="email">Tu correo:</label>
-                            <input id="email" type="email" name="email" required placeholder="Tu correo electrónico">
-                            <label for="message">Tu mensaje:</label>
-                            <textarea id="message" name="message" required placeholder="Escribe tus antecedentes y mensaje aquí..." ></textarea>
-                            <button type="submit" class="btn-primary" >Enviar</button>
+                            <form action="https://formspree.io/f/mkgvkzpl" method="POST" target="_blank">
+                                <label for="nombre">Tu nombre:</label>
+                                <input id="nombre" type="text" name="nombre" required placeholder="Tu nombre">
+                                <label for="celular">Celular:</label>
+                                <input id="celular" type="tel" name="celular" pattern="[0-9\s\-\+]{9,15}" placeholder="Tu número de celular">
+                                <label for="email">Tu correo:</label>
+                                <input id="email" type="email" name="email" required placeholder="Tu correo electrónico">
+                                <label for="message">Tu mensaje:</label>
+                                <textarea id="message" name="message" required placeholder="Escribe tus antecedentes y mensaje aquí..." ></textarea>
+                                <button type="submit" class="btn-primary" >Enviar</button>
                         </form>
         </section>
     </main>
