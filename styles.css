@@ -11,14 +11,14 @@
 }
 .nav-bar a:hover {
 	background: var(--verde-acento);
-	color: #23243a;
+	color: #23243a !important;
 	transform: scale(1.15) rotate(-5deg);
 	box-shadow: 0 0 16px 4px var(--verde-acento);
 }
 .nav-bar {
-	background: var(--gris-oscuro);
-	border-radius: 2.5rem;
-	box-shadow: 0 4px 24px rgba(45,254,84,0.15);
+	background: none;
+	border-radius: 0;
+	box-shadow: none;
 	padding: 0.5rem 2rem;
 	margin: 1.5rem auto 0 auto;
 	max-width: 600px;
@@ -65,7 +65,7 @@
 	--gris: #737373;
 	--gris-oscuro: #404040;
 	--negro: #0D0D0D;
-	--verde-acento: #2DFE54;
+	--verde-acento: #07c42a;
 }
 
 /* Estilos para divs con sombra */
