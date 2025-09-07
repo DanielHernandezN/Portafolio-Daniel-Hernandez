@@ -331,13 +331,27 @@ body {
 	box-shadow: 0 2px 8px rgba(64,64,64,0.10);
 }
 .work-img {
+		width: 100%;
+		height: 180px;
+		border-radius: 1rem 1rem 0 0;
+		background: var(--gris-medio);
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		overflow: hidden;
+	}
+	.work-photo {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		border-radius: 1rem 1rem 0 0;
+	}
+
+.work-photo {
 	width: 100%;
-	height: 180px;
+	height: 100%;
+	object-fit: cover;
 	border-radius: 1rem 1rem 0 0;
-	background: var(--gris-medio);
-	display: flex;
-	align-items: center;
-	justify-content: center;
 }
 .work-info {
 	padding: 1rem;
