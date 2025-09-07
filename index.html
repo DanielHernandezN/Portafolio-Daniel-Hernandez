@@ -96,31 +96,18 @@
             </div>
         </section>
         <section id="contacto" class="section contacto">
-            <h2>Contacto</h2>
-            <form id="contact-form">
-                <input type="text" name="from_name" required placeholder="Tu nombre">
-                <input type="email" name="email" required placeholder="Tu correo electrónico">
-                <textarea name="message" required placeholder="Escribe tu mensaje aquí..."></textarea>
-                <button type="submit" class="btn-primary">Enviar</button>
-            </form>
+                        <h2>Contacto</h2>
+                        <form action="https://formspree.io/f/mkgvkzpl" method="POST" target="_blank">
+                            <label for="email">Tu correo:</label>
+                            <input id="email" type="email" name="email" required placeholder="Tu correo electrónico">
+                            <label for="message">Tu mensaje:</label>
+                            <textarea id="message" name="message" required placeholder="Escribe tus antecedentes y mensaje aquí..." ></textarea>
+                            <button type="submit" class="btn-primary" >Enviar</button>
+                        </form>
         </section>
     </main>
     <footer class="footer">
         <p>&copy; 2025 Daniel Hernández Norambuena <br> Todos los derechos reservados.</p>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
-    <script>
-  emailjs.init("CAdGpzAxQWhlH0mwH"); 
-
-  document.getElementById('contact-form').addEventListener('submit', function(event) {
-    event.preventDefault();
-    emailjs.sendForm('service_mef8tvn', 'template_5s0hyw6', this)
-      .then(function() {
-        alert('Mensaje enviado correctamente');
-      }, function(error) {
-        alert('Error al enviar el mensaje');
-      });
-  });
-</script>
 </body>
 </html>
