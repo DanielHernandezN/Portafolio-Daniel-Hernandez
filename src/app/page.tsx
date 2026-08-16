@@ -11,11 +11,17 @@ export default function Home() {
       min-h-screen
       w-full
       flex
-      justify-center
-      items-center
       ">
         
-        <div className="w-1/2">
+        <div className="
+        flex
+        flex-col
+        justify-center
+        w-1/2
+        px-8
+        min-h-screen
+        bg-zinc-950
+        ">
 
           <h1>Daniel Hernández Norambuena</h1>
           <p>Bienvenido a mi portafolio</p>
@@ -23,8 +29,17 @@ export default function Home() {
         </div>
 
 
-        <div className="w-1/2">
-
+        <div className="
+        flex
+        flex-col
+        justify-center
+        w-1/2
+        px-8
+        min-h-screen
+        bg-zinc-900
+        ">
+          <h1>DERECHO DE PRUEBA</h1>
+          <p>solo es un lado de prueba</p>
         </div>
 
 
