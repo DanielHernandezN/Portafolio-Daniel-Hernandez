@@ -1,2 +1,0 @@
-# Daniel-Hernandez
-portafolio
