@@ -21,10 +21,24 @@ export default function Home() {
         px-8
         min-h-screen
         bg-zinc-950
+        gap-4
         ">
 
-          <h1>Daniel Hernández Norambuena</h1>
-          <p>Bienvenido a mi portafolio</p>
+          <h1 className="
+          text-3xl
+          font-semibold
+          tracking-tight
+          ">Daniel Hernández Norambuena</h1>
+
+          <p>Desarrollador Web</p>
+          
+          <h2>Construyendo soluciones con código y próposito</h2>
+          
+          <p>Programador enfocado en desarrollo web con React, 
+          Next.js y TypeScript. Combino tecnología, análisis y 
+          experiencia resolviendo problemas reales para construir
+          aplicaciones funcionales y con propósito.
+          </p>
         
         </div>
 
