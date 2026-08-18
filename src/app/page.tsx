@@ -1,3 +1,4 @@
+import Image from "next/image"
 
 
 export default function Home() {
@@ -12,9 +13,10 @@ export default function Home() {
       w-full
       flex
       flex-col
-      md:flex-row
       gap-8
       md:gap-0
+      bg-zinc-950
+      md:flex-row
       ">
         
         <div className="
@@ -33,18 +35,21 @@ export default function Home() {
           text-3xl
           font-semibold
           tracking-tight
+          text-white
           ">Daniel Hernández Norambuena
           </h1>
 
           <p className="bg-blue-900 w-fit
           px-3
           py-1
-          rounded-xl">Desarrollador Web</p>
+          rounded-xl
+          text-white">Desarrollador Web</p>
           
           <h2 className="
           text-2xl
           font-semibold
-          tracking-tight">
+          tracking-tight
+          text-white">
           Construyendo soluciones con <span className="text-blue-500"> código </span> 
           y <span className="text-purple-500">propósito</span>
           </h2>
@@ -66,14 +71,30 @@ export default function Home() {
         justify-center
         w-full
         md:w-1/2
-        py-8
-        px-8
-        md:py-0
+        h-80
+        md:h-auto
         md:min-h-screen
         bg-zinc-900
-        ">
-          <h1>DERECHO DE PRUEBA</h1>
-          <p>solo es un lado de prueba</p>
+        relative
+        "        
+        >
+        <Image src="/images/developer-workspace.png"
+        alt="Espacio de trabajo de desarrollo web"
+        fill
+        className="
+        object-cover
+        object-right
+        "
+        />
+          <div className="
+            absolute
+            inset-0
+            bg-linear-to-r
+           from-zinc-950
+            to-transparent
+          "></div>
+
+        
         </div>
 
 
