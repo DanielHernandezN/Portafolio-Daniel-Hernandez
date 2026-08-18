@@ -81,6 +81,8 @@ export default function Home() {
         <Image src="/images/developer-workspace.png"
         alt="Espacio de trabajo de desarrollo web"
         fill
+        sizes="(min-width: 768px) 50vw, 100vw"
+        loading="eager"
         className="
         object-cover
         object-right
