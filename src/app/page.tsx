@@ -74,7 +74,7 @@ export default function Home() {
         h-80
         md:h-auto
         md:min-h-screen
-        bg-zinc-900
+        bg-zinc-950
         relative
         "        
         >
@@ -101,6 +101,139 @@ export default function Home() {
 
 
       </section>
+
+      <section className="
+        min-h-screen
+        w-full
+       bg-zinc-950
+        px-12
+        ">
+        
+
+          <h2 className="
+          pt-20
+          text-3xl
+          font-semibold
+          tracking-tight
+          text-white
+          ">
+            Proyectos
+          </h2>
+            <p className="text-white">
+              Proyectos desarrollados para resolver necesidades reales,
+              aplicando tecnología, análisis y buenas prácticas de desarrollo.
+            </p>
+
+      <div className=" flex flex-col gap-16">
+
+        
+      {/* PROYECTO UNO */}
+
+        <div className="
+          flex
+          flex-col
+          gap-8
+          md:flex-row
+        ">
+
+          <div className="md:w-1/2">
+            <Image 
+            src="/images/logo-siged.jpeg"
+            alt="Logo SIGED"
+            width={800}
+            height={450}
+            
+            />
+            </div>
+          <div className="
+          flex
+          flex-col
+          justify-center
+          px-8
+          gap-4
+          md:w-1/2">
+          
+          <h3 className="text-2xl font-semibold text-white">SIGED</h3>
+            <p className="text-zinc-300">
+              Sistema web orientado a la gestión y seguimiento de eventos
+              delictuales en establecimientos de retail.
+            </p>
+            <p className="text-sm text-zinc-400">
+              Tecnologías: React, Next.js, TypeScript, PostgreSQL y Prisma.
+            </p>
+
+            <button className="
+            self-center
+            bg-blue-600
+            text-white
+            px-3
+            py-1
+            rounded-lg
+            ">
+
+              VER PROYECTOS
+            </button>
+
+          </div>
+        </div>
+
+
+
+
+      {/* PROYECTO DOS */}
+
+        <div className="
+          flex
+          flex-col
+          gap-8
+          md:flex-row-reverse
+        ">
+
+          <div className="md:w-1/2">
+            <Image 
+            src="/images/logo-siged.jpeg"
+            alt="Logo SIGED"
+            width={800}
+            height={450}
+            
+            />
+            </div>
+          <div className="
+          flex
+          flex-col
+          justify-center
+          px-8
+          gap-4
+          md:w-1/2">
+          
+          <h3 className="text-2xl font-semibold text-white">GUARDI VIRTUAL</h3>
+            <p className="text-zinc-300">
+              Asistente inteligente orientado a optimizar
+              la elaboración de documentación policial.
+            </p>
+            <p className="text-sm text-zinc-400">
+              Tecnologías: Next.js, React, TypeScript, IA...
+            </p>
+
+            <button className="
+            self-center
+            bg-blue-600
+            text-white
+            px-3
+            py-1
+            rounded-lg
+            ">
+
+              VER PROYECTOS
+            </button>
+
+          </div>             
+
+        </div>
+    </div>
+        
+  
+</section>
 
 
     </main>
