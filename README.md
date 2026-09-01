@@ -115,3 +115,9 @@ Puedes encontrar mis medios de contacto y perfiles profesionales directamente en
 🟢 **Portafolio activo y en desarrollo**
 
 Este proyecto continuará evolucionando junto con mi aprendizaje y experiencia en desarrollo web.
+
+## Estado del proyecto
+
+Portfolio personal desarrollado con Next.js, React, TypeScript y Tailwind CSS.
+
+Actualmente desplegado en Vercel.
