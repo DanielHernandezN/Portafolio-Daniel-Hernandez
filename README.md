@@ -1,36 +1,117 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Portafolio - Daniel Hernández Norambuena
 
-## Getting Started
+Portafolio personal desarrollado para presentar mi perfil profesional, experiencia y proyectos de desarrollo web.
 
-First, run the development server:
+🌐 **Portafolio:**  
+https://daniel-hernandez.vercel.app/
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 👨‍💻 Sobre mí
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Cuento con más de 13 años de experiencia profesional en Carabineros de Chile, desarrollando funciones que requieren disciplina, responsabilidad, capacidad de adaptación y toma de decisiones en contextos de alta exigencia.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Actualmente estoy desarrollando mis conocimientos en programación y desarrollo web, enfocándome principalmente en **React, Next.js y TypeScript**.
 
-## Learn More
+Mi experiencia profesional me ha permitido fortalecer habilidades como el análisis y resolución de problemas, trabajo en equipo, responsabilidad y búsqueda de soluciones prácticas.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🚀 Tecnologías
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- React
+- Next.js
+- TypeScript
+- Tailwind CSS
+- PostgreSQL
+- Prisma
+- Git
+- GitHub
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📂 Proyectos
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### SIGED
+
+**Sistema de Gestión de Eventos Delictuales en Retail**
+
+Sistema web orientado a la gestión y seguimiento de eventos delictuales en establecimientos de retail.
+
+**Tecnologías:**
+
+- React
+- Next.js
+- TypeScript
+- PostgreSQL
+- Prisma
+
+📌 Proyecto actualmente en desarrollo.
+
+---
+
+### Guardia Virtual
+
+Asistente inteligente orientado a optimizar la elaboración de documentación policial mediante herramientas de inteligencia artificial.
+
+El proyecto busca explorar la utilización de IA para apoyar procesos de generación y organización de documentación.
+
+**Tecnologías:**
+
+- Next.js
+- React
+- TypeScript
+- Inteligencia Artificial
+
+📌 Proyecto actualmente en desarrollo.
+
+---
+
+## 🎯 Objetivo del proyecto
+
+Este portafolio forma parte de mi proceso de aprendizaje y desarrollo profesional en programación.
+
+El objetivo es construir una presencia profesional en línea y, al mismo tiempo, mantener un registro de mi evolución como desarrollador web.
+
+A través de este proyecto busco aplicar progresivamente buenas prácticas de desarrollo, organización de código, diseño responsive y construcción de aplicaciones funcionales.
+
+---
+
+## 📱 Diseño Responsive
+
+El portafolio está desarrollado considerando diferentes tamaños de pantalla, incluyendo dispositivos móviles, tablets y computadores de escritorio.
+
+---
+
+## 🛠️ Desarrollo
+
+Este proyecto utiliza:
+
+- Next.js con App Router
+- React
+- TypeScript
+- Tailwind CSS
+
+El proyecto se encuentra en evolución constante a medida que avanzo en mi aprendizaje y desarrollo de nuevas funcionalidades.
+
+---
+
+## 🌐 Portafolio
+
+Puedes visitar el sitio publicado en Vercel:
+
+**https://daniel-hernandez.vercel.app/**
+
+---
+
+## 📫 Contacto
+
+Puedes encontrar mis medios de contacto y perfiles profesionales directamente en mi portafolio.
+
+---
+
+## 📄 Estado del proyecto
+
+🟢 **Portafolio activo y en desarrollo**
+
+Este proyecto continuará evolucionando junto con mi aprendizaje y experiencia en desarrollo web.
