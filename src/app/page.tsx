@@ -10,7 +10,6 @@ export default function Home() {
 
       <section className="
       min-h-screen
-      w-full
       flex
       flex-col
       gap-8
@@ -27,7 +26,6 @@ export default function Home() {
         md:w-1/2
         px-12
         md:min-h-screen
-        bg-zinc-950
         gap-4
         ">
 
@@ -68,13 +66,11 @@ export default function Home() {
         <div className="
         flex
         flex-col
-        justify-center
         w-full
         md:w-1/2
         h-80
         md:h-auto
         md:min-h-screen
-        bg-zinc-950
         relative
         "        
         >
@@ -104,14 +100,13 @@ export default function Home() {
 
       <section className="
         min-h-screen
-        w-full
        bg-zinc-950
         px-6
         md:px-12
+        pt-20
         ">
 
           <h2 className="
-          pt-20
           text-3xl
           font-semibold
           tracking-tight
@@ -119,12 +114,12 @@ export default function Home() {
           ">
             Proyectos
           </h2>
-            <p className="text-white">
+            <p className="text-zinc-300">
               Proyectos desarrollados para resolver necesidades reales,
               aplicando tecnología, análisis y buenas prácticas de desarrollo.
             </p>
 
-      <div className=" flex flex-col gap-16">
+      <div className=" flex flex-col gap-16 mt-8">
 
         
       {/* PROYECTO UNO */}
@@ -164,7 +159,25 @@ export default function Home() {
               Tecnologías: React, Next.js, TypeScript, PostgreSQL y Prisma.
             </p>
 
-            <button className="
+            <a
+              href="https://github.com/DanielHernandezN/siged"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="
+                self-center
+                bg-blue-600
+                text-white
+                px-3
+                py-1
+                rounded-xl
+                hover:bg-blue-500
+                transition-colors
+              "
+            >
+              VER CÓDIGO
+            </a>
+
+            {/*<button className="
             self-center
             bg-blue-600
             text-white
@@ -174,7 +187,7 @@ export default function Home() {
             ">
 
               VER PROYECTOS
-            </button>
+            </button>*/}
 
           </div>
         </div>
@@ -194,7 +207,7 @@ export default function Home() {
           <div className="md:w-1/2">
             <Image 
             src="/images/logo-siged.jpeg"
-            alt="Logo SIGED"
+            alt="Imagen provisional de Guardia Virtual"
             width={800}
             height={450}
             className="w-full rounded-lg shadow-[0_0_20px_rgba(255,255,255,0.18)]"
@@ -219,7 +232,25 @@ export default function Home() {
               Tecnologías: Next.js, React, TypeScript, IA...
             </p>
 
-            <button className="
+            <a
+              href="https://github.com/DanielHernandezN/guardiavirtual"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="
+                self-center
+                bg-blue-600
+                text-white
+                px-3
+                py-1
+                rounded-lg
+                hover:bg-blue-500
+                transition-colors
+              "
+            >
+              VER CÓDIGO
+            </a>
+
+            {/*<button className="
             self-center
             bg-blue-600
             text-white
@@ -229,7 +260,7 @@ export default function Home() {
             ">
 
               VER PROYECTOS
-            </button>
+            </button>*/}
 
           </div>             
 
@@ -244,13 +275,13 @@ export default function Home() {
 
 
 <section className="
-    min-h-screen
-    w-full
+
     bg-zinc-950
-    px-12
+    px-6
+    md:px-12
+    pt-20
     ">
     <h2 className="
-    pt-20
     text-3xl
     font-semibold
     tracking-tight
@@ -298,16 +329,16 @@ export default function Home() {
 
             <ul className="text-zinc-300 space-y-2">
               <li className="flex items-center gap-2">
-                <span className="h-2 w-2 rounded-full bg-blue-500"></span>  
+                <span aria-hidden="true" className="h-2 w-2 rounded-full bg-blue-500"></span>  
                 Análisis y resolución de problemas</li>
               <li className="flex items-center gap-2">
-                <span className="h-2 w-2 rounded-full bg-blue-500"></span>
+                <span aria-hidden="true" className="h-2 w-2 rounded-full bg-blue-500"></span>
                 Trabajo en equipo</li>
               <li className="flex items-center gap-2">
-                <span className="h-2 w-2 rounded-full bg-blue-500"></span>
+                <span aria-hidden="true" className="h-2 w-2 rounded-full bg-blue-500"></span>
                 Capacidad de adaptación</li>
               <li className="flex items-center gap-2">
-                <span className="h-2 w-2 rounded-full bg-blue-500"></span>
+                <span aria-hidden="true" className="h-2 w-2 rounded-full bg-blue-500"></span>
                 Responsabilidad y disciplina</li>
             </ul>
 
@@ -341,22 +372,22 @@ export default function Home() {
               space-y-2
               ">
               <li className="flex items-center gap-2">
-                <span className="h-2 w-2 rounded-full bg-purple-500"></span>
+                <span aria-hidden="true" className="h-2 w-2 rounded-full bg-purple-500"></span>
                 React y Next.js
               </li>
 
               <li className="flex items-center gap-2">
-                <span className="h-2 w-2 rounded-full bg-purple-500"></span>
+                <span aria-hidden="true" className="h-2 w-2 rounded-full bg-purple-500"></span>
                 TypeScript
               </li>
 
               <li className="flex items-center gap-2">
-                <span className="h-2 w-2 rounded-full bg-purple-500"></span>
+                <span aria-hidden="true" className="h-2 w-2 rounded-full bg-purple-500"></span>
                 Bases de datos y Prisma
               </li>
 
               <li className="flex items-center gap-2">
-                <span className="h-2 w-2 rounded-full bg-purple-500"></span>
+                <span aria-hidden="true" className="h-2 w-2 rounded-full bg-purple-500"></span>
                 Desarrollo de aplicaciones web
               </li>
             </ul>
@@ -366,13 +397,13 @@ export default function Home() {
 </section>
 
 <section className="
-      min-h-screen
-      w-full
      bg-zinc-950
-      px-12
+      px-6
+      md:px-12
+      pt-20
+      pb-20
       ">
         <h2 className="
-          pt-20
           text-3xl
           font-semibold
           tracking-tight
@@ -434,7 +465,7 @@ export default function Home() {
               font-semibold
               text-white
             ">
-            Medios  de  Contacto
+            Medios de Contacto
             </h3>
             <ul>
                 <li className="flex items-center gap-2">
@@ -470,8 +501,9 @@ export default function Home() {
   bg-zinc-950
   border-t
   border-zinc-800
-  px-12
+  px-6
   py-8
+  md:px-12
 ">
   <p className="
   text-center
