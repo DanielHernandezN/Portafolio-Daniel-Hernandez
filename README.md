@@ -2,12 +2,12 @@
 
 Portafolio personal desarrollado para presentar mi perfil profesional, experiencia y proyectos de desarrollo web.
 
-🌐 **Portafolio:**  
+**Portafolio:**  
 https://daniel-hernandez.vercel.app/
 
 ---
 
-## 👨‍💻 Sobre mí
+## Sobre mí
 
 Cuento con más de 13 años de experiencia profesional en Carabineros de Chile, desarrollando funciones que requieren disciplina, responsabilidad, capacidad de adaptación y toma de decisiones en contextos de alta exigencia.
 
@@ -17,7 +17,7 @@ Mi experiencia profesional me ha permitido fortalecer habilidades como el análi
 
 ---
 
-## 🚀 Tecnologías
+##  Tecnologías
 
 - React
 - Next.js
@@ -30,7 +30,7 @@ Mi experiencia profesional me ha permitido fortalecer habilidades como el análi
 
 ---
 
-## 📂 Proyectos
+##  Proyectos
 
 ### SIGED
 
@@ -46,7 +46,7 @@ Sistema web orientado a la gestión y seguimiento de eventos delictuales en esta
 - PostgreSQL
 - Prisma
 
-📌 Proyecto actualmente en desarrollo.
+ Proyecto actualmente en desarrollo.
 
 ---
 
@@ -63,11 +63,11 @@ El proyecto busca explorar la utilización de IA para apoyar procesos de generac
 - TypeScript
 - Inteligencia Artificial
 
-📌 Proyecto actualmente en desarrollo.
+ Proyecto actualmente en desarrollo.
 
 ---
 
-## 🎯 Objetivo del proyecto
+## Objetivo del proyecto
 
 Este portafolio forma parte de mi proceso de aprendizaje y desarrollo profesional en programación.
 
@@ -77,13 +77,13 @@ A través de este proyecto busco aplicar progresivamente buenas prácticas de de
 
 ---
 
-## 📱 Diseño Responsive
+##  Diseño Responsive
 
 El portafolio está desarrollado considerando diferentes tamaños de pantalla, incluyendo dispositivos móviles, tablets y computadores de escritorio.
 
 ---
 
-## 🛠️ Desarrollo
+##  Desarrollo
 
 Este proyecto utiliza:
 
@@ -96,7 +96,7 @@ El proyecto se encuentra en evolución constante a medida que avanzo en mi apren
 
 ---
 
-## 🌐 Portafolio
+##  Portafolio
 
 Puedes visitar el sitio publicado en Vercel:
 
@@ -104,15 +104,15 @@ Puedes visitar el sitio publicado en Vercel:
 
 ---
 
-## 📫 Contacto
+##  Contacto
 
 Puedes encontrar mis medios de contacto y perfiles profesionales directamente en mi portafolio.
 
 ---
 
-## 📄 Estado del proyecto
+##  Estado del proyecto
 
-🟢 **Portafolio activo y en desarrollo**
+ **Portafolio activo y en desarrollo**
 
 Este proyecto continuará evolucionando junto con mi aprendizaje y experiencia en desarrollo web.
 
