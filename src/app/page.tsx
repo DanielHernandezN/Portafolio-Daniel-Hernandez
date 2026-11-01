@@ -1,525 +1,193 @@
-import Image from "next/image"
+import Link from "next/link";
 
+function MountainIllustration() {
+  return (
+    <svg
+      viewBox="0 0 520 300"
+      role="img"
+      aria-label="Ilustración lineal de una montaña con pinos y nodos"
+      className="h-auto w-full"
+    >
+      <g
+        fill="none"
+        stroke="#7dd3e0"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      >
+        {/* Mountain layers */}
+        <path d="M170 250 L300 60 L430 250" strokeWidth="1.4" opacity="0.9" />
+        <path d="M190 250 L300 92 L410 250" strokeWidth="1.1" opacity="0.7" />
+        <path d="M210 250 L300 124 L390 250" strokeWidth="1" opacity="0.55" />
+        <path d="M230 250 L300 156 L370 250" strokeWidth="1" opacity="0.4" />
+        <path d="M255 250 L300 188 L345 250" strokeWidth="1" opacity="0.3" />
+        {/* Base lines */}
+        <path d="M60 250 H180" strokeWidth="1" opacity="0.35" />
+        <path d="M420 250 H470" strokeWidth="1" opacity="0.35" />
+        <path d="M90 272 H460" strokeWidth="1" opacity="0.25" />
+        {/* Trees left */}
+        <g strokeWidth="1" opacity="0.8">
+          <path d="M110 200 V244 M110 208 L96 220 M110 208 L124 220 M110 220 L98 231 M110 220 L122 231 M110 232 L100 241 M110 232 L120 241" />
+          <path d="M150 210 V248 M150 217 L138 227 M150 217 L162 227 M150 228 L140 237 M150 228 L160 237" />
+        </g>
+        {/* Trees right */}
+        <g strokeWidth="1" opacity="0.8">
+          <path d="M420 196 V244 M420 204 L406 216 M420 204 L434 216 M420 216 L408 227 M420 216 L432 227 M420 228 L410 238 M420 228 L430 238" />
+          <path d="M455 210 V246 M455 218 L444 228 M455 218 L466 228 M455 230 L446 239 M455 230 L464 239" />
+        </g>
+        {/* Circuit nodes */}
+        <g strokeWidth="1" opacity="0.6">
+          <path d="M90 90 H130 L145 105 H175" />
+          <path d="M370 70 H410 L425 85 H455" />
+          <path d="M375 140 H415 L428 128 H458" />
+          <path d="M85 180 H115 L128 168 H155" />
+          <path d="M445 240 L460 225 L475 225" />
+        </g>
+        <g fill="#7dd3e0" stroke="none">
+          <circle cx="178" cy="105" r="2.5" />
+          <circle cx="300" cy="60" r="2.5" />
+          <circle cx="432" cy="140" r="2.5" />
+          <circle cx="120" cy="196" r="2.5" />
+          <circle cx="448" cy="252" r="2.5" />
+        </g>
+      </g>
+    </svg>
+  );
+}
+
+const PROJECTS = [
+  {
+    title: "Guardia Virtual",
+    stack: "React · Supabase",
+    href: "/proyectos/guardia-virtual",
+  },
+  { title: "SIGED", stack: "React · face-api.js" },
+  { title: "Exploraciones UX/UI", stack: "Figma · UX/UI" },
+];
+
+const SKILLS = [
+  "React",
+  "JavaScript",
+  "TypeScript",
+  "Tailwind CSS",
+  "Node.js",
+  "Supabase",
+  "SQL",
+  "Figma",
+];
 
 export default function Home() {
-
   return (
-    
-    
-    <main>
-
-      <section className="
-      min-h-screen
-      flex
-      flex-col
-      gap-8
-      md:gap-0
-      bg-zinc-950
-      md:flex-row
-      ">
-        
-        <div className="
-        flex
-        flex-col
-        justify-center
-        w-full
-        md:w-1/2
-        px-12
-        md:min-h-screen
-        gap-4
-        ">
-
-          <h1 className="
-          text-3xl
-          font-semibold
-          tracking-tight
-          text-white
-          ">Daniel Hernández Norambuena
-          </h1>
-
-          <p className="bg-blue-900 w-fit
-          px-3
-          py-1
-          rounded-xl
-          text-white">Desarrollador Web</p>
-          
-          <h2 className="
-          text-2xl
-          font-semibold
-          tracking-tight
-          text-white">
-          Construyendo soluciones con <span className="text-blue-500"> código </span> 
-          y <span className="text-purple-500">propósito</span>
-          </h2>
-          
-          <p className="
-          text-zinc-300
-          ">Programador enfocado en desarrollo web con React, 
-          Next.js y TypeScript. Combino tecnología, análisis y 
-          experiencia resolviendo problemas reales para construir
-          aplicaciones funcionales y con propósito.
-          </p>
-        
+    <main className="bg-abyss text-slate-100">
+      {/* Topbar */}
+      <header className="border-b border-line">
+        <div className="mx-auto max-w-[1100px] px-6 py-5 md:px-10">
+          <Link
+            href="/sobre-mi"
+            className="text-xs font-medium tracking-[0.25em] hover:text-accent"
+          >
+            SOBRE MI
+          </Link>
         </div>
+      </header>
 
+      <div className="mx-auto max-w-[1100px] px-6 md:px-10">
+        {/* Hero */}
+        <section className="grid items-center gap-10 py-16 md:grid-cols-2 md:py-24">
+          <div>
+            <p className="text-xs font-medium tracking-[0.25em] text-slate-200">
+              DANIEL A. HERNANDEZ NORAMBUENA
+            </p>
+            <h1 className="mt-6 text-4xl font-bold leading-[1.05] tracking-tight md:text-[56px]">
+              FULL-STACK DEVELOPER
+            </h1>
+            <p className="mt-6 max-w-md leading-relaxed text-mist">
+              Construyo experiencias digitales donde la lógica del código y la
+              sensibilidad del diseño trabajan juntas.
+            </p>
+          </div>
+          <div aria-hidden="true">
+            <MountainIllustration />
+          </div>
+        </section>
 
-        <div className="
-        flex
-        flex-col
-        w-full
-        md:w-1/2
-        h-80
-        md:h-auto
-        md:min-h-screen
-        relative
-        "        
-        >
-        <Image src="/images/developer-workspace.png"
-        alt="Espacio de trabajo de desarrollo web"
-        fill
-        sizes="(min-width: 768px) 50vw, 100vw"
-        loading="eager"
-        className="
-        object-cover
-        object-right
-        "
-        />
-          <div className="
-            absolute
-            inset-0
-            bg-linear-to-r
-           from-zinc-950
-            to-transparent
-          "></div>
+        <hr className="border-line" />
 
-        
-        </div>
-
-
-      </section>
-
-      <section className="
-        min-h-screen
-       bg-zinc-950
-        px-6
-        md:px-12
-        pt-20
-        ">
-
-          <h2 className="
-          text-3xl
-          font-semibold
-          tracking-tight
-          text-white
-          ">
-            Proyectos
+        {/* Proyectos */}
+        <section className="py-14">
+          <h2 className="text-xs font-medium tracking-[0.25em]">
+            PROYECTOS DESTACADOS
           </h2>
-            <p className="text-zinc-300">
-              Proyectos desarrollados para resolver necesidades reales,
-              aplicando tecnología, análisis y buenas prácticas de desarrollo.
-            </p>
+          <div className="mt-6 grid gap-4 md:grid-cols-3">
+            {PROJECTS.map((project) => (
+              <article
+                key={project.title}
+                className="flex min-h-[160px] flex-col rounded border border-line bg-panel p-6"
+              >
+                <h3 className="text-lg font-semibold">{project.title}</h3>
+                <p className="mt-3 text-sm text-mist">{project.stack}</p>
+                {"href" in project && project.href && (
+                  <Link
+                    href={project.href}
+                    className="mt-auto pt-4 text-sm font-medium text-accent underline-offset-4 hover:underline"
+                  >
+                    Ir a proyecto →
+                  </Link>
+                )}
+              </article>
+            ))}
+          </div>
 
-      <div className=" flex flex-col gap-16 mt-8">
+          {/* Stack */}
+          <ul className="mt-6 flex flex-wrap gap-2">
+            {SKILLS.map((skill) => (
+              <li
+                key={skill}
+                className="rounded border border-line px-3 py-1 text-sm text-mist"
+              >
+                {skill}
+              </li>
+            ))}
+          </ul>
 
-        
-      {/* PROYECTO UNO */}
-
-        <div className="
-          flex
-          flex-col
-          gap-8
-          md:flex-row
-        ">
-
-          <div className="md:w-1/2">
-            <Image 
-            src="/images/logo-siged.jpeg"
-            alt="Logo SIGED"
-            width={800}
-            height={450}
-            className="w-full rounded-xl shadow-[0_0_20px_rgba(255,255,255,0.18)]"
-            
-            />
-            </div>
-          <div className="
-          flex
-          flex-col
-          justify-center
-          px-0
-          gap-4
-          md:px-8
-          md:w-1/2">
-          
-          <h3 className="text-2xl font-semibold text-white">SIGED</h3>
-            <p className="text-zinc-300">
-              Sistema web orientado a la gestión y seguimiento de eventos
-              delictuales en establecimientos de retail.
-            </p>
-            <p className="text-sm text-zinc-400">
-              Tecnologías: React, Next.js, TypeScript, PostgreSQL y Prisma.
-            </p>
-
+          {/* Links — URLs pendientes del dueño */}
+          <div className="mt-6 flex gap-6 text-sm">
             <a
-              href="https://github.com/DanielHernandezN/siged"
+              href="https://github.com/DanielHernandezN"
               target="_blank"
               rel="noopener noreferrer"
-              className="
-                self-center
-                bg-blue-600
-                text-white
-                px-3
-                py-1
-                rounded-xl
-                hover:bg-blue-500
-                transition-colors
-              "
+              className="underline decoration-accent/60 underline-offset-4 hover:text-accent"
             >
-              VER CÓDIGO
+              GitHub
             </a>
-
-            {/*<button className="
-            self-center
-            bg-blue-600
-            text-white
-            px-3
-            py-1
-            rounded-lg
-            ">
-
-              VER PROYECTOS
-            </button>*/}
-
-          </div>
-        </div>
-
-
-
-
-      {/* PROYECTO DOS */}
-
-        <div className="
-          flex
-          flex-col
-          gap-8
-          md:flex-row-reverse
-        ">
-
-          <div className="md:w-1/2">
-            <Image 
-            src="/images/logo-siged.jpeg"
-            alt="Imagen provisional de Guardia Virtual"
-            width={800}
-            height={450}
-            className="w-full rounded-lg shadow-[0_0_20px_rgba(255,255,255,0.18)]"
-
-            
-            />
-            </div>
-          <div className="
-          flex
-          flex-col
-          justify-center
-          px-8
-          gap-4
-          md:w-1/2">
-          
-          <h3 className="text-2xl font-semibold text-white">GUARDIA VIRTUAL</h3>
-            <p className="text-zinc-300">
-              Asistente inteligente orientado a optimizar
-              la elaboración de documentación policial.
-            </p>
-            <p className="text-sm text-zinc-400">
-              Tecnologías: Next.js, React, TypeScript, IA...
-            </p>
-
             <a
-              href="https://github.com/DanielHernandezN/guardiavirtual"
+              href="https://www.linkedin.com/in/daniel-hern%C3%A1ndez-norambuena-a27333368/"
               target="_blank"
               rel="noopener noreferrer"
-              className="
-                self-center
-                bg-blue-600
-                text-white
-                px-3
-                py-1
-                rounded-lg
-                hover:bg-blue-500
-                transition-colors
-              "
+              className="underline decoration-accent/60 underline-offset-4 hover:text-accent"
             >
-              VER CÓDIGO
+              LinkedIn
             </a>
-
-            {/*<button className="
-            self-center
-            bg-blue-600
-            text-white
-            px-3
-            py-1
-            rounded-lg
-            ">
-
-              VER PROYECTOS
-            </button>*/}
-
-          </div>             
-
-        </div>
-    </div>
-        
-  
-</section>
-
-
-{/**SOBRE MI */}
-
-
-<section className="
-
-    bg-zinc-950
-    px-6
-    md:px-12
-    pt-20
-    ">
-    <h2 className="
-    text-3xl
-    font-semibold
-    tracking-tight
-    text-white
-    ">
-      Sobre mí
-    </h2>
-      <p className="text-zinc-300">
-        Mi experiencia profesional y mi camino hacia el desarrollo web.
-      </p>
-
-
-      <div className="
-          flex
-          flex-col
-          gap-8
-          md:flex-row
-          ">
-
-        <div className="
-              flex
-              flex-col
-              gap-4
-              md:w-1/2
-              ">
-
-          <h3 className="
-              text-xl
-              font-semibold
-              text-white
-              ">Perfil Profesional</h3>
-            <p className="
-              text-zinc-300
-              leading-relaxed
-              max-w-xl
-              text-left
-              md:text-justify
-              ">
-              Cuento con más de 13 años de experiencia profesional en Carabineros de Chile,
-              desarrollando funciones que requieren disciplina, responsabilidad, 
-              capacidad de adaptación y toma de decisiones en contextos de alta exigencia.
-              Esta experiencia me ha permitido fortalecer el análisis de problemas,
-              el trabajo en equipo y la búsqueda de soluciones prácticas.
-            </p>
-
-            <ul className="text-zinc-300 space-y-2">
-              <li className="flex items-center gap-2">
-                <span aria-hidden="true" className="h-2 w-2 rounded-full bg-blue-500"></span>  
-                Análisis y resolución de problemas</li>
-              <li className="flex items-center gap-2">
-                <span aria-hidden="true" className="h-2 w-2 rounded-full bg-blue-500"></span>
-                Trabajo en equipo</li>
-              <li className="flex items-center gap-2">
-                <span aria-hidden="true" className="h-2 w-2 rounded-full bg-blue-500"></span>
-                Capacidad de adaptación</li>
-              <li className="flex items-center gap-2">
-                <span aria-hidden="true" className="h-2 w-2 rounded-full bg-blue-500"></span>
-                Responsabilidad y disciplina</li>
-            </ul>
-
-
-        </div>
-
-        <div className="
-              flex
-              flex-col
-              gap-4
-              md:w-1/2
-              ">
-
-          <h3 className="
-              text-xl
-              font-semibold
-              text-white">Desarrollo web</h3>
-            <p className="
-              text-zinc-300
-              leading-relaxed
-              max-w-xl
-              text-justify
-              ">
-              Mi formación en desarrollo web me ha llevado a trabajar con React,
-              Next.js y TypeScript, enfocándome en construir aplicaciones funcionales,
-              comprender cómo se conectan sus distintas partes y aplicar buenas
-              prácticas durante el desarrollo.
-            </p>
-            <ul className="
-              text-zinc-300
-              space-y-2
-              ">
-              <li className="flex items-center gap-2">
-                <span aria-hidden="true" className="h-2 w-2 rounded-full bg-purple-500"></span>
-                React y Next.js
-              </li>
-
-              <li className="flex items-center gap-2">
-                <span aria-hidden="true" className="h-2 w-2 rounded-full bg-purple-500"></span>
-                TypeScript
-              </li>
-
-              <li className="flex items-center gap-2">
-                <span aria-hidden="true" className="h-2 w-2 rounded-full bg-purple-500"></span>
-                Bases de datos y Prisma
-              </li>
-
-              <li className="flex items-center gap-2">
-                <span aria-hidden="true" className="h-2 w-2 rounded-full bg-purple-500"></span>
-                Desarrollo de aplicaciones web
-              </li>
-            </ul>
-
-        </div>
-      </div>
-</section>
-
-<section className="
-     bg-zinc-950
-      px-6
-      md:px-12
-      pt-20
-      pb-20
-      ">
-        <h2 className="
-          text-3xl
-          font-semibold
-          tracking-tight
-         text-white
-        ">
-        Contacto
-      </h2>
-        <p className="text-zinc-300">
-          ¿Tienes un proyecto o una idea?
-        </p>
-      
-      <div className="
-        flex
-        flex-col
-        gap-8
-        md:flex-row
-        ">
-
-        <div className="
-            md:w-1/2
-            flex 
-            flex-col 
-            gap-4">
-              <h3 className="
-                text-xl
-                font-semibold
-                text-white
-              "> ¿Hablamos?
-              </h3>
-
-          <p className="
-            text-zinc-300
-            leading-relaxed
-          ">
-            Estoy abierto a conversar sobre proyectos, oportunidades de desarrollo
-            y nuevas ideas relacionadas con tecnología.
-          </p>
-              
-              <a href="mailto:hernandez.norambuenadaniel@gmail.com"
-                  className="
-                  w-fit
-                  bg-blue-600
-                  px-4
-                  py-2
-                  rounded-lg
-                  text-white
-                  hover:bg-blue-500
-                  transition-colors
-                ">Hablemos</a>
-
-
-
           </div>
+        </section>
 
-          <div className="md:w-1/2 text-zinc-300">
-          
-            <h3 className="
-              text-xl
-              font-semibold
-              text-white
-            ">
-            Medios de Contacto
-            </h3>
-            <ul>
-                <li className="flex items-center gap-2">
-                  <span className="h-2 w-2 rounded-full bg-blue-500"></span>
-                    <a className="hover:text-blue-400 transition-colors" href="mailto:hernandez.norambuenadaniel@gmail.com">Correo Electrónico</a>
-                </li>
+        <hr className="border-line" />
 
-                <li className="flex items-center gap-2">
-                  <span className="h-2 w-2 rounded-full bg-blue-500"></span>
-                  <a className="hover:text-purple-400 transition-colors" href="https://www.linkedin.com/in/daniel-hern%C3%A1ndez-norambuena-a27333368/"
-                  target="_blank"
-                  rel="noopener noreferrer"                  
-                  >LinkedIn</a>
-                </li>
-
-                <li className="flex items-center gap-2">
-                  <span className="h-2 w-2 rounded-full bg-blue-500"></span>
-                    <a className="hover:text-blue-400 transition-colors" href="https://github.com/DanielHernandezN"
-                      target="_blank"
-                      rel="noopener noreferrer"                  
-                      >GitHub</a>
-                </li>
-
-            </ul>
-
-
+        {/* Contacto */}
+        <section className="flex flex-col gap-6 py-10 md:flex-row md:items-center md:justify-between">
+          <div>
+            <h2 className="text-xs font-medium tracking-[0.25em]">Contacto:</h2>
+            <p className="mt-4 text-2xl font-light">
+              Hablemos de tu próximo proyecto
+            </p>
           </div>
+          <a
+            href="mailto:hernandez.norambuenadaniel@gmail.com"
+            className="w-fit rounded border border-accent/70 px-6 py-2.5 text-sm font-medium hover:bg-accent hover:text-abyss"
+          >
+            Contactar
+          </a>
+        </section>
       </div>
-</section>
-
-
-<footer className="
-  bg-zinc-950
-  border-t
-  border-zinc-800
-  px-6
-  py-8
-  md:px-12
-">
-  <p className="
-  text-center
-  text-sm
-  text-zinc-400
-">
-  © 2026 Daniel Hernández Norambuena. <br /> Todos los derechos reservados.
-</p>
-  
-</footer>
-
-</main>
-
-
-
-  )
-
-  
+    </main>
+  );
 }
