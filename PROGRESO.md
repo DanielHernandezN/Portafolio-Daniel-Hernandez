@@ -52,6 +52,15 @@ Home completo + build verde. Fase 2 en curso: detalle Guardia Virtual.
 - [ ] Sin capturas todavía (pasar fotos como se hizo con Guardia Virtual).
 - Nota: el repo tiene deploy en Vercel pero sigue en creación — no agregar botón demo por ahora (2026-11-01).
 
+## 10. API Tareas como tercer proyecto (2026-11-01)
+- [x] Tarjeta "Exploraciones UX/UI" reemplazada por "API Tareas" (`JavaScript`) en el home.
+- [x] Ruta `src/app/proyectos/api-tareas/page.tsx` (Node.js + Express, botón Ver GitHub).
+
+## 11. Formulario de contacto (2026-11-01)
+- [x] `src/app/components/contact-form.tsx` (nombre, correo, mensaje; estados envío/éxito/error, paleta navy).
+- [x] Sección Contacto del home: formulario + `mailto` de respaldo.
+- [ ] Pegar Access Key real de Web3Forms en `contact-form.tsx:5` (ahora placeholder `TU-ACCESS-KEY-DE-WEB3FORMS`).
+
 ## 7. Página Sobre Mí (2026-11-01)
 - [x] Ruta `src/app/sobre-mi/page.tsx` (foto + historia + experiencia, mismo sistema navy).
 - [x] Topbar del home enlaza a `/sobre-mi`.

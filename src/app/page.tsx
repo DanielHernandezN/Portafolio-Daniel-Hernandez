@@ -1,4 +1,5 @@
 import Link from "next/link";
+import ContactForm from "./components/contact-form";
 
 function MountainIllustration() {
   return (
@@ -81,7 +82,11 @@ const PROJECTS = [
     stack: "React",
     href: "/proyectos/siged",
   },
-  { title: "Exploraciones UX/UI", stack: "UX/UI" },
+  {
+    title: "API Tareas",
+    stack: "JavaScript",
+    href: "/proyectos/api-tareas",
+  },
 ];
 
 const SKILLS = [
@@ -197,19 +202,23 @@ export default function Home() {
         <hr className="border-line" />
 
         {/* Contacto */}
-        <section className="flex flex-col gap-6 py-10 md:flex-row md:items-center md:justify-between">
+        <section className="grid gap-10 py-10 md:grid-cols-2">
           <div>
             <h2 className="text-xs font-medium tracking-[0.25em]">Contacto:</h2>
             <p className="mt-4 text-2xl font-light">
               Hablemos de tu próximo proyecto
             </p>
+            <p className="mt-4 text-sm leading-relaxed text-mist">
+              Completa el formulario y te responderé a la brevedad.
+            </p>
+            <a
+              href="mailto:hernandez.norambuenadaniel@gmail.com"
+              className="mt-4 inline-block text-sm text-mist underline decoration-accent/60 underline-offset-4 hover:text-accent"
+            >
+              o escríbeme directo a hernandez.norambuenadaniel@gmail.com
+            </a>
           </div>
-          <a
-            href="mailto:hernandez.norambuenadaniel@gmail.com"
-            className="w-fit rounded border border-accent/70 px-6 py-2.5 text-sm font-medium hover:bg-accent hover:text-abyss"
-          >
-            Contactar
-          </a>
+          <ContactForm />
         </section>
       </div>
     </main>
