@@ -46,6 +46,12 @@ Home completo + build verde. Fase 2 en curso: detalle Guardia Virtual.
 - [x] Tarjeta Guardia Virtual del home enlaza a `/proyectos/guardia-virtual` ("Ir a proyecto →", interno, sin exponer login).
 - [x] Botón inferior "Ver GitHub" → repo `guardiavirtual` (2026-11-01). El link superior "← Volver a proyectos" se mantiene para navegar.
 
+## 9. Detalle SIGED (2026-11-01)
+- [x] Ruta `src/app/proyectos/siged/page.tsx` (título, subtítulo, tecnologías, botón Ver GitHub → repo `siged`).
+- [x] Tarjeta SIGED del home enlaza a `/proyectos/siged`.
+- [ ] Sin capturas todavía (pasar fotos como se hizo con Guardia Virtual).
+- Nota: el repo tiene deploy en Vercel pero sigue en creación — no agregar botón demo por ahora (2026-11-01).
+
 ## 7. Página Sobre Mí (2026-11-01)
 - [x] Ruta `src/app/sobre-mi/page.tsx` (foto + historia + experiencia, mismo sistema navy).
 - [x] Topbar del home enlaza a `/sobre-mi`.

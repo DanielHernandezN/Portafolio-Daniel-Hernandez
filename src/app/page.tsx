@@ -57,22 +57,28 @@ function MountainIllustration() {
 const PROJECTS = [
   {
     title: "Guardia Virtual",
-    stack: "React · Supabase",
+    stack: "TypeScript",
     href: "/proyectos/guardia-virtual",
   },
-  { title: "SIGED", stack: "React · face-api.js" },
-  { title: "Exploraciones UX/UI", stack: "Figma · UX/UI" },
+  {
+    title: "S.I.G.E.D",
+    stack: "React",
+    href: "/proyectos/siged",
+  },
+  { title: "Exploraciones UX/UI", stack: "UX/UI" },
 ];
 
 const SKILLS = [
   "React",
   "JavaScript",
   "TypeScript",
+  "HTML",
+  "CSS",
   "Tailwind CSS",
   "Node.js",
-  "Supabase",
   "SQL",
-  "Figma",
+  "Vercel",
+  "GitHub",
 ];
 
 export default function Home() {
