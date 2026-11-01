@@ -55,6 +55,6 @@ Home completo + build verde. Fase 2 en curso: detalle Guardia Virtual.
 ## 7. Página Sobre Mí (2026-11-01)
 - [x] Ruta `src/app/sobre-mi/page.tsx` (foto + historia + experiencia, mismo sistema navy).
 - [x] Topbar del home enlaza a `/sobre-mi`.
-- [ ] Foto real: colocar en `public/images/perfil.jpg` (ahora referencia un archivo inexistente).
-- [ ] Ajustar textos de historia/experiencia con versión final del dueño.
+- [x] Foto real en `public/images/perfil.png` (retrato fondo limpio, 2026-11-01).
+- [x] Textos de historia con versión final del dueño (2026-11-01).
 - Nota Guardia Virtual: no exponer link (pide login). Mostrar con fotos en fase 2; link a GitHub cuando el repo sea visible.

@@ -14,19 +14,19 @@ export default function SobreMi() {
 
         <p className="mt-10 text-xs font-medium tracking-[0.25em]">SOBRE MI</p>
         <h1 className="mt-6 text-4xl font-bold tracking-tight md:text-5xl">
-          Daniel Hernández Norambuena
+          Daniel Antonio Hernández Norambuena
         </h1>
         <p className="mt-4 max-w-xl leading-relaxed text-mist">
-          Desarrollador Full-Stack. Aquí irá tu historia profesional.
+          Desarrollador Full-Stack.
         </p>
 
         {/* Foto — coloca tu foto en public/images/perfil.jpg */}
-        <div className="relative mt-10 h-72 w-full overflow-hidden rounded border border-line bg-panel md:h-96 md:w-1/2">
+        <div className="relative mx-auto mt-10 aspect-[3/4] w-full overflow-hidden rounded border border-line bg-panel sm:max-w-sm">
           <Image
-            src="/images/perfil.jpg"
+            src="/images/perfil.png"
             alt="Foto de Daniel Hernández Norambuena"
             fill
-            sizes="(min-width: 768px) 50vw, 100vw"
+            sizes="(min-width: 640px) 384px, 100vw"
             className="object-cover"
           />
         </div>
