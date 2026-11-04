@@ -59,7 +59,7 @@ Home completo + build verde. Fase 2 en curso: detalle Guardia Virtual.
 ## 11. Formulario de contacto (2026-11-01)
 - [x] `src/app/components/contact-form.tsx` (nombre, correo, mensaje; estados envío/éxito/error, paleta navy).
 - [x] Sección Contacto del home: formulario + `mailto` de respaldo.
-- [ ] Pegar Access Key real de Web3Forms en `contact-form.tsx:5` (ahora placeholder `TU-ACCESS-KEY-DE-WEB3FORMS`).
+- [x] Access Key Web3Forms configurada en `contact-form.tsx:6` (2026-11-04).
 
 ## 7. Página Sobre Mí (2026-11-01)
 - [x] Ruta `src/app/sobre-mi/page.tsx` (foto + historia + experiencia, mismo sistema navy).
