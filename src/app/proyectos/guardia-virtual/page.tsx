@@ -32,8 +32,13 @@ export default function GuardiaVirtual() {
               Virtual
             </h1>
             <div aria-hidden="true" className="mt-8 h-0.5 w-16 bg-blue-600" />
-            <p className="mt-8 text-xl leading-relaxed">
-              Sistema de apoyo para documentación y gestión policial
+            <p className="mt-8 text-justify text-lg leading-relaxed text-slate-200">
+              Una solución tecnológica que nace de la experiencia en el
+              servicio policial y busca optimizar la elaboración de
+              documentación mediante inteligencia artificial, transformando
+              antecedentes en borradores estructurados, reduciendo tareas
+              repetitivas y facilitando la gestión documental, siempre bajo
+              la revisión y supervisión del funcionario.
             </p>
 
             <h2 className="mt-10 text-sm font-medium tracking-[0.2em] text-blue-400">

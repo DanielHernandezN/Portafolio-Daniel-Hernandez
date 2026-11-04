@@ -49,7 +49,7 @@ Home completo + build verde. Fase 2 en curso: detalle Guardia Virtual.
 ## 9. Detalle SIGED (2026-11-01)
 - [x] Ruta `src/app/proyectos/siged/page.tsx` (título, subtítulo, tecnologías, botón Ver GitHub → repo `siged`).
 - [x] Tarjeta SIGED del home enlaza a `/proyectos/siged`.
-- [ ] Sin capturas todavía (pasar fotos como se hizo con Guardia Virtual).
+- [x] Badge "En construcción" agregado al detalle (2026-11-04) — proyecto aún sin capturas porque sigue en desarrollo.
 - Nota: el repo tiene deploy en Vercel pero sigue en creación — no agregar botón demo por ahora (2026-11-01).
 
 ## 10. API Tareas como tercer proyecto (2026-11-01)

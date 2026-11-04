@@ -22,10 +22,18 @@ export default function Siged() {
           <h1 className="text-6xl font-bold leading-[1.05] tracking-tight md:text-7xl">
             S.I.G.E.D
           </h1>
+          <p className="mt-4 inline-block rounded border border-line bg-panel px-3 py-1 text-sm text-accent">
+            En construcción
+          </p>
           <div aria-hidden="true" className="mt-8 h-0.5 w-16 bg-blue-600" />
-          <p className="mt-8 text-xl leading-relaxed">
-            Sistema web orientado a la gestión y seguimiento de eventos
-            delictuales en establecimientos de retail
+          <p className="mt-8 text-justify text-lg leading-relaxed text-slate-200">
+            Plataforma de gestión orientada al sector retail, diseñada para
+            centralizar el registro de personas detenidas por eventos
+            delictuales, mantener la trazabilidad de sus antecedentes e
+            identificar posibles reincidencias. Facilita al área jurídica el
+            acceso a información organizada para evaluar y gestionar acciones
+            legales, como solicitudes de medidas cautelares de prohibición de
+            ingreso a establecimientos.
           </p>
 
           <h2 className="mt-10 text-sm font-medium tracking-[0.2em] text-blue-400">
