@@ -29,7 +29,7 @@ export default function SobreMi() {
               Daniel Antonio Hernández Norambuena
             </h1>
             <p className="mt-4 leading-relaxed text-mist">
-              Funcionario de Carabineros de Chile y Desarrollador de Software Full-Stack.
+              Funcionario de Carabineros de Chile y Desarrollador Full-Stack.
             </p>
             <p className="mt-2 text-sm tracking-wide text-accent">
               Desde la Región de La Araucanía, Chile — para el mundo.
