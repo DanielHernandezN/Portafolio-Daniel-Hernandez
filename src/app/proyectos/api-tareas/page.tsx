@@ -18,7 +18,7 @@ export default function ApiTareas() {
             API Tareas
           </h1>
           <div aria-hidden="true" className="mt-8 h-0.5 w-16 bg-blue-600" />
-          <p className="mt-8 text-xl leading-relaxed">
+          <p className="mt-8 text-justify text-lg leading-relaxed text-slate-200">
             API REST de tareas desarrollada con Node.js y Express
           </p>
 
